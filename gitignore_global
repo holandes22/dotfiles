@@ -1,0 +1,27 @@
+*~
+*.swp
+*.pyc
+.project
+.pydevproject
+.ropeproject
+.vagrant
+*.log
+*.pid
+*.db
+.librarian/
+.tmp/
+node_modules/
+requirements*txt.sha1
+.tool-versions
+**/.pytest_cache
+
+.env
+.envrc
+.cache
+
+# Vscode
+.vscode
+.elixir_ls
+
+# MacOS
+.DS_Store

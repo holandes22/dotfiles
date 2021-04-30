@@ -1,0 +1,45 @@
+[includeIf "gitdir:/Users/personal/"]
+    path = .gitconfig_personal
+
+[includeIf "gitdir:~/dotfiles/"]
+    path = .gitconfig_personal
+
+[includeIf "gitdir:~/"]
+    path = .gitconfig_work
+
+[init]
+    defaultBranch = main
+
+[color]
+    ui = true
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore_global
+
+[color "status"]
+    added = green
+    changed = red
+    untracked = cyan
+
+[color "branch"]
+    current = cyan
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[alias]
+    lg = log --oneline --graph --decorate --abbrev-commit
+    lgn = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)\n%C(bold blue)%Creset' --abbrev-commit --
+    d = diff --ignore-space-at-eol
+    s = status
+    l = log --decorate
+    pr = pull --rebase
+    co = checkout
+[credential]
+    helper = osxkeychain
