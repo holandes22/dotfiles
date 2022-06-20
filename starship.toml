@@ -16,7 +16,7 @@ $line_break\
 > 
 """
 scan_timeout = 0
-command_timeout = 0
+command_timeout = 300
 add_newline = false
 
 [aws]
