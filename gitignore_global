@@ -12,7 +12,6 @@
 .tmp/
 node_modules/
 requirements*txt.sha1
-.tool-versions
 **/.pytest_cache
 
 .env
@@ -25,3 +24,6 @@ requirements*txt.sha1
 
 # MacOS
 .DS_Store
+
+# python
+local_debug.py
