@@ -11,10 +11,5 @@ fish_add_path ~/.local/bin
 
 starship init fish | source
 direnv hook fish | source
-source /opt/homebrew/opt/asdf/asdf.fish
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-eval /Users/pablo/miniconda3/bin/conda "shell.fish" "hook" $argv | source
-# <<< conda initialize <<<
-
+source /opt/homebrew/opt/asdf/libexec/asdf.fish
