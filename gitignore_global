@@ -14,7 +14,6 @@ node_modules/
 requirements*txt.sha1
 **/.pytest_cache
 
-.env
 .envrc
 .cache
 
